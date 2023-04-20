@@ -38,14 +38,14 @@ const Modal = (props) => {
                     X
                 </div>
                 <div className="modalContainer">
-                    <h1>Agree with the rules</h1>
+                    <h1>Rules agreement</h1>
                     <p>
                         Special terms and conditions of use apply for this function, 
                         they must be confirmed by clicking on the Confirm button
                     </p>
                     <div className="buttons">
-                        <button onClick={() => props.onClose(false)}>Cancel</button>
-                        <button disabled={isDisabled} onClick={() => props.onClose(true)}>
+                        <button className="btn"  onClick={() => props.onClose(false)}>Cancel</button>
+                        <button className="btn"  disabled={isDisabled} onClick={() => props.onClose(true)}>
                             Confirm {counter >= 1 ? counter : ""}
                         </button>
                     </div>

@@ -35,7 +35,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>Click Button</h1>
-      <button onClick={handleButtonClick}>Perform action</button>
+      <button className="btn" onClick={handleButtonClick}>Perform action</button>
       {isModalOpen && <Modal onClose={handleCloseModal} />}
     </div>
   );

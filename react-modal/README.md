@@ -5,7 +5,7 @@
 
 - The user clicks on the "Perform action" button on the page.
 - A modal window opens with a text to confirm the action:
-- There should be a heading: "Agree with the rules";
+- There should be a heading: "Rules agreement";
 - There should be a cross in the upper right corner;
 - Text in the main part of the window: “Special terms and conditions of use apply for this function, they must be confirmed by clicking on the Confirm button”;
 - At the bottom of the window there are two buttons - "Cancel" and "Confirm".
